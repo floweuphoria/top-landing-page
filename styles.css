@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: rgb(33, 41, 54);
+    color: white;
+}
+
+.container {
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.nav {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+li {
+    list-style-type: none;
+    font-weight: normal;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+.hero-content {
+    padding: 48px 0 96px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero-left {
+    width: 40%;
+    padding-right: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-right {
+    width: 60%;
+}
+
+button {
+    padding: 8px 24px;
+    background-color: rgb(32, 96, 193);
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.hero-image-wrapper {
+    max-width: 100%;
+}
+
+.hero-image {
+    max-width: 100%;
+}
+
+.container.main {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.card-image-wrapper {
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 8px;
+}
+
+.card-text {
+    color: grey;
+    font-size: 14px;
+    padding-top: 12px;
+}
+
+.testimonial-section {
+    background-color: lightgray;
+    margin-top: 48px;
+    padding: 48px 0;
+}
+
+blockquote {
+    margin-left: 0;
+    margin-right: 0;
+    font-style: italic;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.author {
+    text-align: right;
+}
+
+.container.cta {
+    background-color: blue;
+}
+
+section.cta {
+    padding: 96px 0;
+}
+
+.cta-left {
+    width: 80%;
+}
+
+.cta.container {
+    background-color: rgb(78, 128, 238);
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.cta-left h4 {
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+
+.cta-right button {
+    margin-top: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.cta-right {
+
+}
